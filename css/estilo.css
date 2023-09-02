@@ -1,0 +1,247 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    background-color: #ecd5b8;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.redes {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 1rem;
+    width: 40px;
+    height: 40px;
+    
+}
+.menu{
+    list-style: none;
+    text-align: center;
+    margin-top: 0%;
+    
+}
+.menu li{
+    display: inline-block;
+    text-align: center;
+    padding: 15px;
+    font-size: 25px;
+    font-style: bold;
+    
+}
+
+.logo {
+    width: 100px;
+    margin-left: 30px;
+    
+
+}
+.video{
+    padding: 5%;
+    margin-left: 1%;
+    margin-bottom: 5rem;
+}
+
+.juana, .francisco {
+    width: 35vw;
+    border-radius: 1rem;
+    height: 60vh;
+    margin: 30px;
+    display: flex;
+    display: inline-block;
+    text-align: center;
+    margin-top: 4rem;
+    margin: auto;
+}
+.caja1{
+    margin: auto;
+    text-align: center;
+}
+.caja2{
+    margin: auto;
+    text-align: center;
+}
+.parrafoq{
+    font-family: 'Barlow Condensed', sans-serif;
+    padding: 2rem;
+    margin: 1.5rem;
+    line-height: 1;
+    font-size: 2rem;
+}
+header{
+    
+    background: rgb(239, 227, 179);
+    background: linear-gradient(0deg, rgba(132, 130, 121, 0.216) 0%, rgba(207,213,144,0.6336659663865547) 100%);
+    grid-area: header;
+}
+main{
+    grid-area: main;
+}
+aside{
+    grid-area: aside;
+}
+div.caja1{
+    grid-area: div1;
+}
+div.caja2{
+    grid-area: div2;
+}
+footer{
+    background: rgb(239, 227, 179);
+    background: linear-gradient(0deg, rgba(132, 130, 121, 0.216) 0%, rgba(207,213,144,0.6336659663865547) 100%);
+    grid-area: footer;
+}
+
+h1{
+    font-family: 'Bricolage Grotesque', sans-serif;
+    text-align: center;
+    font-size: 3rem;
+    color: rgba(41, 32, 32, 0.678);
+}
+ .ubicacion{
+    font-family: 'Bricolage Grotesque', sans-serif;
+    text-align: center;
+    font-size: 1.5rem;
+    color: rgba(41, 32, 32, 0.678);
+}
+h2{
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+h3{
+    font-family: 'Bricolage Grotesque', sans-serif;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+h4{
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-size: 1rem;
+    text-align: center;
+}
+h5{
+    text-align: center;
+}
+a{
+    color: black;
+}
+.fotoArquitectos {
+    width: 400px;
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+    line-height: center; 
+    margin-left: 3rem;
+
+}
+.obras {
+    width: 100px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+    margin-right: 20px;
+    gap: 2rem;
+    border-radius: 1rem ;
+}
+
+section form div{
+    line-height: 5px;
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 1rem;
+    line-height: 2rem;
+}
+section p{
+    font-family: 'Barlow Condensed', sans-serif;
+    padding: 2rem;
+    margin: 1.5rem;
+    line-height: 1;
+    font-size: 2rem;
+}
+aside p{
+    font-family: 'Barlow Condensed', sans-serif;
+    padding: 2rem;
+    margin: 1.5rem;
+    line-height: 1;
+    font-size: 2rem;
+}
+
+.diseno {
+    width: 10%;
+    height: 300px;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+    margin-right: 20px;
+    gap: 2rem;
+    
+
+}
+
+a:hover{
+    opacity: 0.8;
+    background-color: rgb(241, 235, 235);
+    color: green;
+}
+
+a:active{
+    background-color: aqua;
+    color: blueviolet;
+}
+
+.cuadro{
+    width: 400px;
+    height: 300px;
+    background-color: white;
+    padding: 2rem;
+    border: black ;
+    border-style: double;
+    text-align: center;
+    overflow: visible;
+    margin: auto;
+    
+}
+
+.padre {
+    flex: auto;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: repeat(4, auto);
+    row-gap: 1rem;
+    column-gap: 1rem;
+    grid-template-areas: 
+    "header header"
+    "main aside"
+    "div1 div2"
+    "footer footer";
+}
+
+@media screen and (max-width:320px){
+    .padre{
+        grid-template-columns: 2fr;
+        grid-template-areas: 
+        "header "
+        "main "
+        "aside "
+        "div1 "
+        "div2 "
+        "footer ";
+    }
+   
+}
+
+
+
+
+    
+
