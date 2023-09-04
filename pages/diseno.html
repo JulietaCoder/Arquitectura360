@@ -9,44 +9,70 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,200&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/estilo.css">
     <link rel="shortcut icon" href="../img/logo.jpg" type="image/x-icon">
     <title>Arquitectura 360°</title>
 </head>
-<body class="padre">
+<body>
     <header>
-        <img src="../img/logo.jpg" class="logo" alt="Logo Arquitectura">
-        <h1>
-            Arquitectura 360°
-        </h1>
-        <h2>Nuñez- CABA</h2>
+        <header>
+            <h1>
+                Arquitectura 360°
+            </h1>
+            <h2>Nuñez- CABA</h2>
+            <img src="../img/logo.jpg" class="logo" alt="Logo Arquitectura">
+    
+            <div class="redes">
+            <img src="../img/fb.png" alt="imagen facebook">
+            <img src="../img/mail.png" alt="imagen mail">
+            <img src="../img/wp.jpg"  alt="imagen whatsap">
+            <img src="../img/ig.jpg"  alt="imagen instagram">
+            </div>
         <nav>
-            <img class="redes" src="../img/fb.png" alt="imagen facebook">
-            <img class="redes" src="../img/mail.png" alt="imagen mail">
-            <img class="redes" src="../img/wp.jpg" alt="imagen whatsap">
-            <img class="redes" src="../img/ig.jpg" alt="imagen instagram">
-
             <ul class="menu">
-                <li> <a href="../index.html">Inicio</a></li>
-                <li> <a href="./quienes somos.html">Quienes somos</a></li>
-                <li> <a href="./obras.html">Obras</a></li>
-                <li> <a href="./diseno.html">Diseño de Interiores</a></li>
-                <li> <a href="./contacto.html">Contacto</a></li>
+                    <li> <a href="../index.html">Inicio</a></li>
+                    <li> <a href="../pages/quienes somos.html">Quienes somos</a></li>
+                    <li> <a href="../pages/obras.html">Obras</a></li>
+                    <li> <a href="../pages/diseno.html">Diseño de Interiores</a></li>
+                    <li> <a href="../pages/contacto.html">Contacto</a></li>
+            
             </ul>
-        </nav>
     </header>
     <hr>
     <main>
-        <h2>Diseño de Interiores</h2>
+        <h2>DISEÑO DE INTERIORES</h2>
 
-        <div class="diseno">
-            <img src="../img/diseño1.jpg" alt="fotococina">
-            <img src="../img/diseno2.jpg" alt="fotoliving">
+        <div id="carouselExampleIndicators" class="carousel slide w-55 m-auto p-5">
+            <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="../img/diseno1.jpg" class="d-block w-55 m-auto" alt="Living">
+            </div>
+            <div class="carousel-item">
+                <img src="../img/diseno2.jpg" class="d-block w-55 m-auto" alt="Baño">
+            </div>
+            <div class="carousel-item">
+                <img src="../img/diseno3.jpg" class="d-block w-10 m-auto" alt="Habitacion">
+            </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+            </button>
         </div>
-      
+
     </main>
     <aside >
-            <p>Nuestro equipo de expertos en diseño se asegurará de cada detalle para que esté a la altura de tus expectativas. Vamos a trabajar contigo para personalizar cada aspecto, desde el diseño hasta la elección de los materiales y acabados</p>
+            <p>Nuestro equipo de expertos en diseño se asegurará de cada detalle para que esté a la altura de tus expectativas. Nos gusta combinar nuestro estilo moderno, cálido, los colores neutros y diferentes texturas con los gustos de cada cliente. Es muy importante para nosotros conocer para quién trabajamos, a las familias, reunirnos, escucharlos, intercambiar ideas, asesorarlos y trabajar en equipo con ellos para lograr así un proyecto construido entre todos. La confianza es fundamental para que el proceso fluya y el trabajo finalice como ellos y nosotras lo soñamos.</p>
     </aside>
     <hr>
         <footer>
@@ -61,5 +87,6 @@
         </h5>
 
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </body>
 </html>
