@@ -48,33 +48,35 @@
         </section>
         <section> <p>Te acompañamos durante todo el proyecto arquitectónico y de diseño de interiores, si tienes alguna consulta no dudes en enviarla a nuestro estudio de arquitectura a través de cualquiera de estos métodos de contacto. Gracias por su visita, te estaremos respondiendo a la brevedad​.</p>
         </section>
-        <section>
-            <form action="">
-                <div>
-                    <label for="name">Complete su nombre*</label>
-                    <input type="text" name="name" placeholder="Juan">
-                </div>
-                <div>
-                    <label for="surname">Complete su apellido</label>
-                    <input type="text" name="surname" placeholder="Gomez">
-                </div>
-                <div>
-                    <label for="mail">Escriba su mail*</label>
-                    <input type="email" name="mail" placeholder="xxx@xxx.com" required>
-                </div>
-                <div>
-                    <label for="phone">Indique su telefono</label>
-                    <input type="number" name="phone" placeholder="11 9999 9999">
-                </div>
-                <div>
-                    <label for="comen">Escriba su consulta*</label>
-                    <textarea name="comen" id="" cols="50" rows="10"></textarea>
-                </div>
-                <div>
-                    <input type="submit" value="Enviar consulta">
-                </div>
-            </form>
-        </section>
+        <form>
+            <legend class="m-4">COMPLETE EL FORMULARIO</legend>
+            <div class= "formulario">
+                <label for="name" class="form-label">Complete su nombre* </label>
+                <input type="text" name="name" class="form-control" placeholder="Juan">
+            </div>
+            <div class= "formulario">
+                <label for="surname" class="form-label">Complete su apellido </label>
+                <input type="text"  class="form-control" placeholder="Gomez">
+            </div>
+            <div class="formulario">
+                <label for="mail" class="form-label">Escriba su mail* </label>
+                <input type="email"  class="form-control" placeholder="xxx@xxx.com">
+            </div>
+            <div class="formulario">
+                <label for="phone" class="form-label">Indique su numero de telefono </label>
+                <input type="number"   placeholder="11 9999 9999">
+            </div>
+
+            <div class="formulario">
+                <label for="comen" class="form-label"> Escriba su consulta* </label>
+                <textarea name="comen" id="" cols="50" rows="10" class="form-control" ></textarea>
+            </div>
+
+            <div>
+            <button type="submit" class="btn btn-primary m-4">Enviar</button>
+            </fieldset>
+            </div>
+        </form>
     </main>
     <hr>
     <footer>
