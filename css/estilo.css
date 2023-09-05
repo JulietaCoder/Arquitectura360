@@ -16,8 +16,8 @@ body{
     height: 40px;
     top: 1rem;
     right: 0;
-    margin-right: 5rem;
-    justify-content: space-evenly;  
+    margin-right: 4.5rem;
+    justify-content: space-evenly;
 }
 .menu{
     list-style: none;
@@ -205,31 +205,4 @@ a:active{
     overflow: visible;
     margin: auto;
     
-}
-
-.padre {
-    flex: auto;
-    display: grid;
-    grid-template-columns: 2fr 2fr;
-    grid-template-rows: repeat(4, auto);
-    row-gap: 1rem;
-    column-gap: 1rem;
-    grid-template-areas: 
-    "header header"
-    "main aside"
-    "div1 div2"
-    "footer footer";
-}
-
-@media screen and (max-width:320px){
-    .padre{
-        grid-template-columns: 2fr;
-        grid-template-areas: 
-        "header "
-        "main "
-        "aside "
-        "div1 "
-        "div2 "
-        "footer ";
-    }
 }
