@@ -210,3 +210,7 @@ a:active{
     border-color: rgba(170, 73, 73, 0.237);
     margin-left: 25%;
 }
+.casas {
+    width: 50px;
+    margin-top: 1rem;
+}
