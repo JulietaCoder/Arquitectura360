@@ -210,7 +210,30 @@ a:active{
     border-color: rgba(170, 73, 73, 0.237);
     margin-left: 25%;
 }
-.casas {
+.dario {
     width: 50px;
     margin-top: 1rem;
+    grid-area: dario;
+}
+.martina {
+    width: 50px;
+    margin-top: 1rem;
+    grid-area: martina;
+}
+.rebeca {
+    width: 50px;
+    margin-top: 1rem;
+    grid-area: rebeca;
+}
+.imagenes{
+    grid-area: imagenes;
+}
+.padre{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "dario martina rebeca"
+    "imagenes imagenes imagenes";
+
 }
