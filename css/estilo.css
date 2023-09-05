@@ -78,28 +78,24 @@ body{
     margin: 1.5rem;
     line-height: 1;
     font-size: 2rem;
+    font-weight: bold;
+}
+.fotoArquitectos {
+    width: 500px;
+    margin-bottom: 5%;
+    border-radius: 1rem;
+    margin-left: 2rem;
+    text-align: center;
 }
 header{   
     background: rgb(45, 42, 27);
     background: linear-gradient(0deg, rgba(50, 50, 47, 0.216) 0%, rgba(66, 67, 52, 0.634) 100%);
     grid-area: header;
 }
-main{
-    grid-area: main;
-}
-aside{
-    grid-area: aside;
-}
-div.caja1{
-    grid-area: div1;
-}
-div.caja2{
-    grid-area: div2;
-}
+
 footer{
     background: rgb(186, 185, 178);
     background: linear-gradient(0deg, rgba(161, 160, 155, 0.216) 0%, rgba(151, 151, 146, 0.634) 100%);
-    grid-area: footer;
 }
 
 h1{
@@ -139,13 +135,7 @@ h5{
 a{
     color: black;
 }
-.fotoArquitectos {
-    width: 400px;
-    margin-bottom: 2rem;
-    border-radius: 1rem;
-    line-height: center; 
-    margin-left: 3rem;
-}
+
 
 section form div{
     line-height: 5px;
@@ -160,6 +150,7 @@ section p{
     margin: 1.5rem;
     line-height: 1;
     font-size: 2rem;
+    font-weight: bold;
 }
 aside p{
     font-family: 'Barlow Condensed', sans-serif;
@@ -168,6 +159,7 @@ aside p{
     margin-top: 3rem;
     line-height: 1;
     font-size: 2rem;
+    font-weight: bold;
 }
 
 .diseno {
