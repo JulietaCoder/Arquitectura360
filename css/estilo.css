@@ -199,3 +199,11 @@ a:active{
     margin: auto;
     
 }
+
+.borde {
+    width: 50%;
+    border-radius:2rem;
+    border-width: 2rem;
+    border-color: rgba(170, 73, 73, 0.237);
+    margin-left: 25%;
+}
