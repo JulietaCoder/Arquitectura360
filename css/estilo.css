@@ -43,6 +43,7 @@ body{
     top: 0.5rem;
     left: 0;
     
+    
 
 }
 .video{
@@ -117,6 +118,8 @@ h2{
     text-decoration: underline;
     margin-top: 1rem;
     margin-bottom: 2rem;
+    font-weight: bold;
+    color: darkolivegreen;
 }
 h3{
     font-family: 'Bricolage Grotesque', sans-serif;
@@ -153,7 +156,7 @@ section p{
     font-size: 2rem;
     font-weight: bold;
 }
-aside p{
+p{
     font-family: 'Barlow Condensed', sans-serif;
     padding: 2rem;
     margin: 1.5rem;
