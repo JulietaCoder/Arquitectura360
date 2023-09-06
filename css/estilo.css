@@ -210,20 +210,36 @@ a:active{
     border-color: rgba(170, 73, 73, 0.237);
     margin-left: 25%;
 }
+
+
 .dario {
     width: 50px;
     margin-top: 1rem;
+    margin-right: 1rem;
     grid-area: dario;
+    display: flex;
+    gap: 3rem;
+
+}
+.textod {
+    margin-top: 0.5rem;
 }
 .martina {
-    width: 50px;
-    margin-top: 1rem;
+    width: 60px;
+    margin-top: 0;
+    margin-right: 50%;
+    display: flex;
+    gap: 3rem;
     grid-area: martina;
+    
 }
 .rebeca {
     width: 50px;
     margin-top: 1rem;
     grid-area: rebeca;
+    display: flex;
+    gap: 3rem;
+    
 }
 .imagenes{
     grid-area: imagenes;
@@ -235,5 +251,4 @@ a:active{
     grid-template-areas: 
     "dario martina rebeca"
     "imagenes imagenes imagenes";
-
 }
