@@ -8,78 +8,19 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.redes {
-    display: flex;
-    flex-direction: row;
-    position: absolute;
-    width: 40px;
-    height: 40px;
-    top: 1rem;
-    right: 0;
-    margin-right: 4.5rem;
-    justify-content: space-evenly;
-}
-.menu{
-    list-style: none;
-    text-align: center;
-    margin-top: 0%;
-    
-}
-.menu li{
-    display: flex;
-    display: inline-block;
-    text-align: center;
-    padding: 15px;
-    font-size: 25px;
-    font-style: bold;
-    
-}
 
-.logo {
-    margin-left: 2rem;
-    width: 150px;
-    height: 150px;
-    position: absolute;
-    display: flex;
-    top: 0.5rem;
-    left: 0;
 
-}
+
+
 .video{
     padding: 5%;
     margin-left: 1%;
     margin-bottom: 5rem;
 }
 
-.juana, .francisco {
-    width: 35vw;
-    border-radius: 1rem;
-    height: 60vh;
-    margin: 30px;
-    display: flex;
-    display: inline-block;
-    text-align: center;
-    margin-top: 4rem;
-    margin: auto;
-}
-.caja1{
-    margin: auto;
-    text-align: center;
-    padding: 2rem;
-}
-.caja2{
-    margin: auto;
-    text-align: center;
-    padding: 2rem;
-}
-.parrafoq{
-    font-family: 'Barlow Condensed', sans-serif;
-    padding: 2rem;
-    margin: 1.5rem;
-    line-height: 1;
-    font-size: 2rem;
-    font-weight: bold;
-}
+
+
+
 .fotoArquitectos {
     width: 500px;
     margin-bottom: 5%;
@@ -87,23 +28,8 @@ body{
     margin-left: 2rem;
     text-align: center;
 }
-header{   
-    background: rgb(45, 42, 27);
-    background: linear-gradient(0deg, rgba(50, 50, 47, 0.216) 0%, rgba(66, 67, 52, 0.634) 100%);
-    grid-area: header;
-}
 
-footer{
-    background: rgb(186, 185, 178);
-    background: linear-gradient(0deg, rgba(161, 160, 155, 0.216) 0%, rgba(151, 151, 146, 0.634) 100%);
-}
 
-h1{
-    font-family: 'Bricolage Grotesque', sans-serif;
-    text-align: center;
-    font-size: 4rem;
-    color: rgba(41, 32, 32, 0.678);
-}
 .ubicacion{
     font-family: 'Bricolage Grotesque', sans-serif;
     text-align: center;
@@ -189,18 +115,7 @@ a:active{
     color: blueviolet;
 }
 
-.cuadro{
-    width: 550px;
-    height: 400px;
-    background-color: white;
-    padding: 2rem;
-    border: black ;
-    border-style: double;
-    text-align: center;
-    overflow: visible;
-    margin: auto;
-    
-}
+
 
 .borde {
     width: 50%;

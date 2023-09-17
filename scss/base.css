@@ -161,4 +161,139 @@ div .francisco {
   margin-top: 4rem;
   margin: auto;
 }
+
+body {
+  background-image: url(../img/fondo-beige-envejecido.jpg);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main h2 {
+  font-family: 'Bricolage Grotesque', sans-serif;
+  font-size: 3rem;
+  text-align: center;
+  text-decoration: underline;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  font-weight: bold;
+  color: rgba(101, 110, 83, 0.701);
+}
+
+main div .parrafoq {
+  font-family: 'Barlow Condensed', sans-serif;
+  padding: 2rem;
+  margin: 1.5rem;
+  line-height: 1;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+main .fotoArquitectos {
+  width: 500px;
+  margin-bottom: 5%;
+  border-radius: 1rem;
+  margin-left: 2rem;
+  text-align: center;
+}
+
+main h2 {
+  font-family: 'Bricolage Grotesque', sans-serif;
+  font-size: 3rem;
+  text-align: center;
+  text-decoration: underline;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  font-weight: bold;
+  color: rgba(101, 110, 83, 0.701);
+}
+
+main .padre .dario {
+  width: 50px;
+  margin-top: 6rem;
+  margin-right: 3rem;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  grid-area: dario;
+}
+
+main .padre .dario h5 {
+  text-align: center;
+}
+
+main .padre .dario p {
+  font-family: 'Barlow Condensed', sans-serif;
+  padding: 2rem;
+  margin: 1.5rem;
+  margin-top: 3rem;
+  line-height: 1;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+main .padre .martina {
+  width: 50px;
+  margin-top: 6rem;
+  margin-right: 3rem;
+  margin-bottom: 1rem;
+  grid-area: martina;
+}
+
+main .padre .martina h5 {
+  text-align: center;
+}
+
+main .padre .martina p {
+  font-family: 'Barlow Condensed', sans-serif;
+  padding: 2rem;
+  margin: 1.5rem;
+  margin-top: 3rem;
+  line-height: 1;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+main .padre .rebeca {
+  width: 50px;
+  margin-top: 6rem;
+  margin-bottom: 1rem;
+  grid-area: rebeca;
+}
+
+main .padre .rebeca h5 {
+  text-align: center;
+}
+
+main .padre .rebeca p {
+  font-family: 'Barlow Condensed', sans-serif;
+  padding: 2rem;
+  margin: 1.5rem;
+  margin-top: 3rem;
+  line-height: 1;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+main div div .imagenes {
+  grid-area: imagenes;
+}
+
+main h2 {
+  font-family: 'Bricolage Grotesque', sans-serif;
+  font-size: 3rem;
+  text-align: center;
+  text-decoration: underline;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  font-weight: bold;
+  color: rgba(101, 110, 83, 0.701);
+}
+
+main p {
+  font-family: 'Barlow Condensed', sans-serif;
+  padding: 2rem;
+  margin: 1.5rem;
+  margin-top: 3rem;
+  line-height: 1;
+  font-size: 2rem;
+  font-weight: bold;
+}
 /*# sourceMappingURL=base.css.map */
