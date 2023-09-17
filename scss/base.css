@@ -206,12 +206,24 @@ main h2 {
   color: rgba(101, 110, 83, 0.701);
 }
 
+main .padre {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: 0,9fr 0,9fr;
+      grid-template-rows: 0,9fr 0,9fr;
+      grid-template-areas: "dario martina rebeca" "imagenes imagenes imagenes";
+}
+
 main .padre .dario {
   width: 50px;
   margin-top: 6rem;
   margin-right: 3rem;
   margin-left: 1rem;
   margin-bottom: 1rem;
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
   grid-area: dario;
 }
 
@@ -234,6 +246,8 @@ main .padre .martina {
   margin-top: 6rem;
   margin-right: 3rem;
   margin-bottom: 1rem;
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
   grid-area: martina;
 }
 
@@ -255,6 +269,8 @@ main .padre .rebeca {
   width: 50px;
   margin-top: 6rem;
   margin-bottom: 1rem;
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
   grid-area: rebeca;
 }
 
@@ -273,6 +289,9 @@ main .padre .rebeca p {
 }
 
 main div div .imagenes {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
   grid-area: imagenes;
 }
 

@@ -10,6 +10,12 @@ main{
         color: hsla(81, 14%, 38%, 0.701);
         }
     .padre{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 0,9fr 0,9fr;
+        grid-template-areas: 
+        "dario martina rebeca"
+        "imagenes imagenes imagenes";
         .dario{
             width: 50px;
             margin-top: 6rem;
