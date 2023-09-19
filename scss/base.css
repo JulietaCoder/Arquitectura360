@@ -315,4 +315,106 @@ main p {
   font-size: 2rem;
   font-weight: bold;
 }
+
+header h1 {
+  font-family: 'Bricolage Grotesque', sans-serif;
+  text-align: center;
+  font-size: 4rem;
+  color: rgba(41, 32, 32, 0.678);
+}
+
+header h2 {
+  font-family: 'Bricolage Grotesque', sans-serif;
+  font-size: 3rem;
+  text-align: center;
+  text-decoration: underline;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  font-weight: bold;
+  color: rgba(101, 110, 83, 0.701);
+}
+
+header .logo {
+  margin-left: 2rem;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  top: 0.5rem;
+  left: 0;
+}
+
+header .redes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 1rem;
+  right: 0;
+  margin-right: 4.5rem;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+header nav .menu {
+  list-style: none;
+  text-align: center;
+  margin-top: 0%;
+}
+
+header nav .menu .paginas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: inline-block;
+  text-align: center;
+  padding: 15px;
+  font-size: 25px;
+  font-style: bold;
+}
+
+main section h2 {
+  font-family: 'Bricolage Grotesque', sans-serif;
+  font-size: 3rem;
+  text-align: center;
+  text-decoration: underline;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  font-weight: bold;
+  color: rgba(101, 110, 83, 0.701);
+}
+
+main section p {
+  font-family: 'Barlow Condensed', sans-serif;
+  padding: 2rem;
+  margin: 1.5rem;
+  line-height: 1;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+main .borde {
+  width: 50%;
+  border-radius: 2rem;
+  border-width: 2rem;
+  border-color: rgba(170, 73, 73, 0.237);
+  margin-left: 25%;
+}
+
+main .borde .formulario {
+  line-height: 5px;
+  margin: 1rem;
+  padding: 1rem;
+  font-size: 1rem;
+  line-height: 2rem;
+}
 /*# sourceMappingURL=base.css.map */
