@@ -19,17 +19,6 @@ body{
 }
 
 
-
-
-.fotoArquitectos {
-    width: 500px;
-    margin-bottom: 5%;
-    border-radius: 1rem;
-    margin-left: 2rem;
-    text-align: center;
-}
-
-
 .ubicacion{
     font-family: 'Bricolage Grotesque', sans-serif;
     text-align: center;
@@ -64,14 +53,6 @@ a{
     color: black;
 }
 
-
-.formulario{
-    line-height: 5px;
-    margin: 1rem;
-    padding: 1rem;
-    font-size: 1rem;
-    line-height: 2rem;
-}
 
 section p{
     font-family: 'Barlow Condensed', sans-serif;

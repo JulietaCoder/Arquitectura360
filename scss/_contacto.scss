@@ -48,6 +48,16 @@ header {
                     font-size: 25px;
                     font-style: bold;   
                 }
+                a{
+                    color: grey;
+                    font-weight: bold;
+                }
+                a:hover{
+                    transform: scale(1.2, 1.2);
+                    color: black;
+                    transform: rotate(45deg);
+                    
+                }
             }   
         }
     }

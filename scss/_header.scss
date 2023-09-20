@@ -1,11 +1,28 @@
 
 header {
+        background: linear-gradient(0deg, rgba(161, 160, 155, 0.216) 0%, rgba(151, 151, 146, 0.634) 100%);
     div {
-        h1 {
+        .titulo {
             font-family: 'Bricolage Grotesque', sans-serif;
             text-align: center;
             font-size: 4rem;
             color: rgba(41, 32, 32, 0.678);
+            animation-name: tit;
+            animation-duration: 9s;
+            animation-iteration-count: inherit;
+        }
+        @keyframes tit {
+            0%{
+                opacity: 0;
+            }
+
+            50%{
+                opacity: 1;
+            }
+            
+            100%{
+                opacity: 1;
+            }
         }
         h2{
             font-family: 'Bricolage Grotesque', sans-serif;
@@ -48,8 +65,20 @@ header {
                     text-align: center;
                     padding: 15px;
                     font-size: 25px;
-                    font-style: bold;   
+                    font-style: bold;  
                 }
+
+                a{
+                    color: grey;
+                    font-weight: bold;
+                }
+                a:hover{
+                    transform: scale(1.2, 1.2);
+                    color: black;
+                    transform: translate(10px, 20px);
+                    
+                }
+                
             }   
         }
 

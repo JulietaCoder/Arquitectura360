@@ -5,11 +5,46 @@
           box-sizing: border-box;
 }
 
-header div h1 {
+header {
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(161, 160, 155, 0.216)), to(rgba(151, 151, 146, 0.634)));
+  background: linear-gradient(0deg, rgba(161, 160, 155, 0.216) 0%, rgba(151, 151, 146, 0.634) 100%);
+}
+
+header div .titulo {
   font-family: 'Bricolage Grotesque', sans-serif;
   text-align: center;
   font-size: 4rem;
   color: rgba(41, 32, 32, 0.678);
+  -webkit-animation-name: tit;
+          animation-name: tit;
+  -webkit-animation-duration: 9s;
+          animation-duration: 9s;
+  -webkit-animation-iteration-count: inherit;
+          animation-iteration-count: inherit;
+}
+
+@-webkit-keyframes tit {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes tit {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 header div h2 {
@@ -71,6 +106,19 @@ header div nav .menu .paginas {
   font-style: bold;
 }
 
+header div nav .menu a {
+  color: grey;
+  font-weight: bold;
+}
+
+header div nav .menu a:hover {
+  -webkit-transform: scale(1.2, 1.2);
+          transform: scale(1.2, 1.2);
+  color: black;
+  -webkit-transform: translate(10px, 20px);
+          transform: translate(10px, 20px);
+}
+
 footer {
   background: #bab9b2;
   background: -webkit-gradient(linear, left bottom, left top, from(rgba(161, 160, 155, 0.216)), to(rgba(151, 151, 146, 0.634)));
@@ -101,6 +149,12 @@ main div h2 {
   margin-bottom: 2rem;
   font-weight: bold;
   color: rgba(101, 110, 83, 0.701);
+}
+
+main div .video {
+  padding: 4%;
+  margin-left: 1.5%;
+  margin-bottom: 5rem;
 }
 
 main .cuadro {
@@ -380,6 +434,19 @@ header nav .menu .paginas {
   padding: 15px;
   font-size: 25px;
   font-style: bold;
+}
+
+header nav .menu a {
+  color: grey;
+  font-weight: bold;
+}
+
+header nav .menu a:hover {
+  -webkit-transform: scale(1.2, 1.2);
+          transform: scale(1.2, 1.2);
+  color: black;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
 }
 
 main section h2 {
