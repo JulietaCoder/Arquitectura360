@@ -1,6 +1,7 @@
 
 header {
-        background: linear-gradient(0deg, rgba(161, 160, 155, 0.216) 0%, rgba(151, 151, 146, 0.634) 100%);
+        background-image: url(../img/casa2.jpg);
+        opacity: 1;
     div {
         .titulo {
             font-family: 'Bricolage Grotesque', sans-serif;
@@ -26,7 +27,7 @@ header {
         }
         h2{
             font-family: 'Bricolage Grotesque', sans-serif;
-            font-size: 3rem;
+            font-size: 2rem;
             text-align: center;
             text-decoration: underline;
             margin-top: 4rem;
