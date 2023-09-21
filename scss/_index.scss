@@ -1,6 +1,6 @@
 
 body {
-    background-color: rgba(250, 248, 248, 0.879);
+    background-color: blanchedalmond;
     font-family: Arial, Helvetica, sans-serif;
 }
     
@@ -18,8 +18,9 @@ main{
             }
         .video{
             padding: 4%;
-            margin-left: 1.5%;
+            margin-left: 10%;
             margin-bottom: 5rem;
+            width: 10%;
         }
     }
         .cuadro{
@@ -49,7 +50,6 @@ main{
                 margin: auto;
                 text-align: center;
                 padding: 2rem;
-
                 .juana{
                     width: 35vw;
                     border-radius: 1rem;
@@ -58,11 +58,10 @@ main{
                     display: flex;
                     display: inline-block;
                     text-align: center;
-                    margin-top: 4rem;
+                    margin-top: 5%;
                     margin: auto;
-                }
-            }
-        
+                }  
+            }       
         }
         div{
             .caja2{

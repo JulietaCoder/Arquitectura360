@@ -1,6 +1,7 @@
 header {
-    h1 {
+    .titulo {
         font-family: 'Bricolage Grotesque', sans-serif;
+        font-family: 'Lobster Two', cursive;
         text-align: center;
         font-size: 5rem;
         color: rgba(41, 32, 32, 0.678);
@@ -64,18 +65,17 @@ header {
 
 
 main{
-    section{
-        h2{
-            font-family: 'Bricolage Grotesque', sans-serif;
-            font-size: 3rem;
-            text-align: center;
-            text-decoration: underline;
-            margin-top: 4rem;
-            margin-bottom: 2rem;
-            font-weight: bold;
-            color: hsla(81, 14%, 38%, 0.701);
-        }
+    h2{
+        font-family: 'Bricolage Grotesque', sans-serif;
+        font-size: 2rem;
+        text-align: center;
+        text-decoration: underline;
+        margin-top: 4rem;
+        margin-bottom: 2rem;
+        font-weight: bold;
+        color: hsla(81, 14%, 38%, 0.701);
     }
+    
     section{
         p{
             font-family: 'Barlow Condensed', sans-serif;
