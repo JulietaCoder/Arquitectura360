@@ -12,7 +12,7 @@ header {
 }
 
 header div .titulo {
-  font-family: 'Bricolage Grotesque', sans-serif;
+  font-family: "Bricolage Grotesque", sans-serif;
   font-family: 'Lobster Two', cursive;
   text-align: center;
   font-size: 5rem;
@@ -50,7 +50,7 @@ header div .titulo {
 }
 
 header div h2 {
-  font-family: 'Bricolage Grotesque', sans-serif;
+  font-family: "Bricolage Grotesque", sans-serif;
   font-size: 2rem;
   text-align: center;
   text-decoration: underline;
@@ -128,7 +128,7 @@ footer {
 }
 
 footer h4 {
-  font-family: 'Bricolage Grotesque', sans-serif;
+  font-family: "Bricolage Grotesque", sans-serif;
   font-size: 1rem;
   text-align: center;
 }
@@ -143,7 +143,7 @@ body {
 }
 
 main div h2 {
-  font-family: 'Bricolage Grotesque', sans-serif;
+  font-family: "Bricolage Grotesque", sans-serif;
   font-size: 2rem;
   text-align: center;
   text-decoration: underline;
@@ -173,7 +173,7 @@ main .cuadro {
 }
 
 main .cuadro h3 {
-  font-family: 'Bricolage Grotesque', sans-serif;
+  font-family: "Bricolage Grotesque", sans-serif;
   margin: auto;
   text-align: center;
   margin-bottom: 3rem;
@@ -225,7 +225,7 @@ body {
 }
 
 main h2 {
-  font-family: 'Bricolage Grotesque', sans-serif;
+  font-family: "Bricolage Grotesque", sans-serif;
   font-size: 2rem;
   text-align: center;
   text-decoration: underline;
@@ -236,7 +236,7 @@ main h2 {
 }
 
 main div .parrafoq {
-  font-family: 'Barlow Condensed', sans-serif;
+  font-family: "Barlow Condensed", sans-serif;
   padding: 2rem;
   margin-left: 5rem;
   line-height: 1;
@@ -254,7 +254,7 @@ main .fotoArquitectos {
 }
 
 main h2 {
-  font-family: 'Bricolage Grotesque', sans-serif;
+  font-family: "Bricolage Grotesque", sans-serif;
   font-size: 2rem;
   text-align: center;
   text-decoration: underline;
@@ -290,7 +290,7 @@ main .padre .dario h5 {
 }
 
 main .padre .dario p {
-  font-family: 'Barlow Condensed', sans-serif;
+  font-family: "Barlow Condensed", sans-serif;
   padding: 2rem;
   margin: 1.5rem;
   margin-top: 3rem;
@@ -314,7 +314,7 @@ main .padre .martina h5 {
 }
 
 main .padre .martina p {
-  font-family: 'Barlow Condensed', sans-serif;
+  font-family: "Barlow Condensed", sans-serif;
   padding: 2rem;
   margin: 1.5rem;
   margin-top: 3rem;
@@ -337,7 +337,7 @@ main .padre .rebeca h5 {
 }
 
 main .padre .rebeca p {
-  font-family: 'Barlow Condensed', sans-serif;
+  font-family: "Barlow Condensed", sans-serif;
   padding: 2rem;
   margin: 1.5rem;
   margin-top: 3rem;
@@ -354,7 +354,7 @@ main div div .imagenes {
 }
 
 main h2 {
-  font-family: 'Bricolage Grotesque', sans-serif;
+  font-family: "Bricolage Grotesque", sans-serif;
   font-size: 2rem;
   text-align: center;
   text-decoration: underline;
@@ -365,7 +365,7 @@ main h2 {
 }
 
 main p {
-  font-family: 'Barlow Condensed', sans-serif;
+  font-family: "Barlow Condensed", sans-serif;
   padding: 2rem;
   margin: 1.5rem;
   margin-top: 3rem;
@@ -375,7 +375,7 @@ main p {
 }
 
 header .titulo {
-  font-family: 'Bricolage Grotesque', sans-serif;
+  font-family: "Bricolage Grotesque", sans-serif;
   font-family: 'Lobster Two', cursive;
   text-align: center;
   font-size: 5rem;
@@ -383,7 +383,7 @@ header .titulo {
 }
 
 header h2 {
-  font-family: 'Bricolage Grotesque', sans-serif;
+  font-family: "Bricolage Grotesque", sans-serif;
   font-size: 2rem;
   text-align: center;
   text-decoration: underline;
@@ -455,7 +455,7 @@ header nav .menu a:hover {
 }
 
 main h2 {
-  font-family: 'Bricolage Grotesque', sans-serif;
+  font-family: "Bricolage Grotesque", sans-serif;
   font-size: 2rem;
   text-align: center;
   text-decoration: underline;
@@ -466,7 +466,7 @@ main h2 {
 }
 
 main section p {
-  font-family: 'Barlow Condensed', sans-serif;
+  font-family: "Barlow Condensed", sans-serif;
   padding: 2rem;
   margin: 1.5rem;
   line-height: 1;

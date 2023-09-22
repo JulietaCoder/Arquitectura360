@@ -1,6 +1,6 @@
 main{
     h2{
-        font-family: 'Bricolage Grotesque', sans-serif;
+        font-family: $tipografiaTitulo;
         font-size: 2rem;
         text-align: center;
         text-decoration: underline;
@@ -27,7 +27,7 @@ main{
                 text-align: center;
             }
             p{
-                font-family: 'Barlow Condensed', sans-serif;
+                font-family: $texto;
                 padding: 2rem;
                 margin: 1.5rem;
                 margin-top: 3rem;
@@ -46,7 +46,7 @@ main{
                 text-align: center;
             }
             p{
-                font-family: 'Barlow Condensed', sans-serif;
+                font-family: $texto;
                 padding: 2rem;
                 margin: 1.5rem;
                 margin-top: 3rem;
@@ -64,7 +64,7 @@ main{
                 text-align: center;
             }
             p{
-                font-family: 'Barlow Condensed', sans-serif;
+                font-family: $texto;
                 padding: 2rem;
                 margin: 1.5rem;
                 margin-top: 3rem;

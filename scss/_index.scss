@@ -7,7 +7,7 @@ body {
 main{
     div{
         h2{
-                font-family: 'Bricolage Grotesque', sans-serif;
+                font-family: $tipografiaTitulo;
                 font-size: 2rem;
                 text-align: center;
                 text-decoration: underline;
@@ -35,7 +35,7 @@ main{
             margin: auto;
             
             h3{
-                font-family: 'Bricolage Grotesque', sans-serif;
+                font-family: $tipografiaTitulo;
                 margin: auto;
                 text-align: center;
                 margin-bottom: 3rem;

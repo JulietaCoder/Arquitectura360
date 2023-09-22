@@ -4,7 +4,7 @@ header {
         background: linear-gradient(0deg, rgba(148, 142, 110, 0.216) 0%, rgba(243, 243, 232, 0.634) 100%);
     div {
         .titulo {
-            font-family: 'Bricolage Grotesque', sans-serif;
+            font-family: $tipografiaTitulo;
             font-family: 'Lobster Two', cursive;
             text-align: center;
             font-size: 5rem;
@@ -27,7 +27,7 @@ header {
             }
         }
         h2{
-            font-family: 'Bricolage Grotesque', sans-serif;
+            font-family: $tipografiaTitulo;
             font-size: 2rem;
             text-align: center;
             text-decoration: underline;

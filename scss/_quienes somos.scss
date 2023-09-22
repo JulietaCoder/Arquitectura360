@@ -5,7 +5,7 @@ body {
 
 main{
     h2{
-        font-family: 'Bricolage Grotesque', sans-serif;
+        font-family: $tipografiaTitulo;
         font-size: 2rem;
         text-align: center;
         text-decoration: underline;
@@ -16,7 +16,7 @@ main{
     }
     div{
         .parrafoq{
-            font-family: 'Barlow Condensed', sans-serif;
+            font-family: $texto;
             padding: 2rem;
             margin-left: 5rem;
             line-height: 1;
