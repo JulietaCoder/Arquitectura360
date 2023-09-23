@@ -221,7 +221,7 @@ main h2 {
   margin-top: 4rem;
   margin-bottom: 2rem;
   font-weight: bold;
-  color: rgba(101, 110, 83, 0.701);
+  color: rgba(23, 28, 13, 0.701);
 }
 
 main div .parrafoq {
@@ -282,7 +282,6 @@ main .padre .dario p {
   font-family: "Barlow Condensed", sans-serif;
   padding: 2rem;
   margin: 1.5rem;
-  margin-top: 3rem;
   line-height: 1;
   font-size: 2rem;
   font-weight: bold;
@@ -306,7 +305,6 @@ main .padre .martina p {
   font-family: "Barlow Condensed", sans-serif;
   padding: 2rem;
   margin: 1.5rem;
-  margin-top: 3rem;
   line-height: 1;
   font-size: 2rem;
   font-weight: bold;
@@ -329,7 +327,6 @@ main .padre .rebeca p {
   font-family: "Barlow Condensed", sans-serif;
   padding: 2rem;
   margin: 1.5rem;
-  margin-top: 3rem;
   line-height: 1;
   font-size: 2rem;
   font-weight: bold;
@@ -357,7 +354,6 @@ main p {
   font-family: "Barlow Condensed", sans-serif;
   padding: 2rem;
   margin: 1.5rem;
-  margin-top: 3rem;
   line-height: 1;
   font-size: 2rem;
   font-weight: bold;
@@ -368,6 +364,12 @@ header .titulo {
   text-align: center;
   font-size: 5rem;
   color: rgba(41, 32, 32, 0.678);
+  -webkit-animation-name: tit;
+          animation-name: tit;
+  -webkit-animation-duration: 9s;
+          animation-duration: 9s;
+  -webkit-animation-iteration-count: inherit;
+          animation-iteration-count: inherit;
 }
 
 header .titulo2 {
@@ -446,7 +448,7 @@ main h2 {
   margin-top: 4rem;
   margin-bottom: 2rem;
   font-weight: bold;
-  color: rgba(101, 110, 83, 0.701);
+  color: rgba(23, 28, 13, 0.701);
 }
 
 main section p {

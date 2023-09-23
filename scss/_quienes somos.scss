@@ -1,14 +1,7 @@
 
 main{
     h2{
-        font-family: $tipografiah2;
-        font-size: 2rem;
-        text-align: center;
-        text-decoration: underline;
-        margin-top: 4rem;
-        margin-bottom: 2rem;
-        font-weight: bold;
-        color: hsla(81, 14%, 38%, 0.701);
+        @include estiloh2
     }
     div{
         .parrafoq{

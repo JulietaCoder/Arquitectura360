@@ -1,14 +1,7 @@
 main{
     h2{
-        font-family: $tipografiah2;
-        font-size: 2rem;
-        text-align: center;
-        text-decoration: underline;
-        margin-top: 4rem;
-        margin-bottom: 2rem;
-        font-weight: bold;
-        color: hsla(80, 38%, 8%, 0.701);
-        }
+        @include estiloh2
+    }
     .padre{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -27,13 +20,7 @@ main{
                 text-align: center;
             }
             p{
-                font-family: $texto;
-                padding: 2rem;
-                margin: 1.5rem;
-                margin-top: 3rem;
-                line-height: 1;
-                font-size: 2rem;
-                font-weight: bold;
+                @include estiloparrafo
             }
         }
         .martina{
@@ -46,13 +33,7 @@ main{
                 text-align: center;
             }
             p{
-                font-family: $texto;
-                padding: 2rem;
-                margin: 1.5rem;
-                margin-top: 3rem;
-                line-height: 1;
-                font-size: 2rem;
-                font-weight: bold; 
+                @include estiloparrafo 
             }
         }
         .rebeca{
@@ -64,13 +45,7 @@ main{
                 text-align: center;
             }
             p{
-                font-family: $texto;
-                padding: 2rem;
-                margin: 1.5rem;
-                margin-top: 3rem;
-                line-height: 1;
-                font-size: 2rem;
-                font-weight: bold; 
+                @include estiloparrafo
             }
         }
     }

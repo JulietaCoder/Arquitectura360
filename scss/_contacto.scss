@@ -4,6 +4,9 @@ header {
         text-align: center;
         font-size: 5rem;
         color: rgba(41, 32, 32, 0.678);
+        animation-name: tit;
+        animation-duration: 9s;
+        animation-iteration-count: inherit;
     }
     .titulo2{
         font-family: $tipografiaTitulo;
@@ -61,24 +64,12 @@ header {
 
 main{
     h2{
-        font-family: $tipografiah2;
-        font-size: 2rem;
-        text-align: center;
-        text-decoration: underline;
-        margin-top: 4rem;
-        margin-bottom: 2rem;
-        font-weight: bold;
-        color: hsla(81, 14%, 38%, 0.701);
+        @include estiloh2
     }
     
     section{
         p{
-            font-family: $texto;
-            padding: 2rem;
-            margin: 1.5rem;
-            line-height: 1;
-            font-size: 2rem;
-            font-weight: bold;
+            @include estiloparrafo
         }
     }
     .borde{
