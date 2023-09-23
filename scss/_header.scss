@@ -1,13 +1,14 @@
 
 header {
-        background-color: blanchedalmond;
-        background: linear-gradient(0deg, rgba(148, 142, 110, 0.216) 0%, rgba(243, 243, 232, 0.634) 100%);
+        background-image: url(https://images.squarespace-cdn.com/content/v1/5e4d52c46318977d9e5e6ffb/1582687582250-CBI51WYYUP7LBZN6XXEJ/1-2.jpg?format=2500w);
+        background-size:cover; 
+        background-position: center center;
     div {
         .titulo {
             font-family: $tipografiaTitulo;
             text-align: center;
             font-size: 5rem;
-            color: rgba(41, 32, 32, 0.678);
+            color: white;
             animation-name: tit;
             animation-duration: 9s;
             animation-iteration-count: inherit;
@@ -16,7 +17,7 @@ header {
             font-family: $tipografiaTitulo;
             text-align: center;
             font-size: 3rem;
-            color: rgba(41, 32, 32, 0.678);
+            color: white;
         }
         @keyframes tit {
             0%{
@@ -40,6 +41,10 @@ header {
             top: 0.5rem;
             left: 0;
         }
+        .banner{
+            position: relative;
+            width: 100%;
+        }
         .redes{
             display: flex;
             flex-direction: row;
@@ -56,6 +61,8 @@ header {
                 list-style: none;
                 text-align: center;
                 margin-top: 0%;
+                transition: width 2s linear;
+
                 .paginas{
                     display: flex;
                     display: inline-block;
@@ -66,7 +73,7 @@ header {
                 }
 
                 a{
-                    color: grey;
+                    color: white;
                     font-weight: bold;
                 }
                 a:hover{
@@ -81,3 +88,4 @@ header {
 
     }
 }
+

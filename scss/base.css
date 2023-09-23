@@ -6,16 +6,16 @@
 }
 
 header {
-  background-color: blanchedalmond;
-  background: -webkit-gradient(linear, left bottom, left top, from(rgba(148, 142, 110, 0.216)), to(rgba(243, 243, 232, 0.634)));
-  background: linear-gradient(0deg, rgba(148, 142, 110, 0.216) 0%, rgba(243, 243, 232, 0.634) 100%);
+  background-image: url(https://images.squarespace-cdn.com/content/v1/5e4d52c46318977d9e5e6ffb/1582687582250-CBI51WYYUP7LBZN6XXEJ/1-2.jpg?format=2500w);
+  background-size: cover;
+  background-position: center center;
 }
 
 header div .titulo {
   font-family: "Lobster Two", cursive;
   text-align: center;
   font-size: 5rem;
-  color: rgba(41, 32, 32, 0.678);
+  color: white;
   -webkit-animation-name: tit;
           animation-name: tit;
   -webkit-animation-duration: 9s;
@@ -28,7 +28,7 @@ header div .titulo2 {
   font-family: "Lobster Two", cursive;
   text-align: center;
   font-size: 3rem;
-  color: rgba(41, 32, 32, 0.678);
+  color: white;
 }
 
 @-webkit-keyframes tit {
@@ -67,6 +67,11 @@ header div .logo {
   left: 0;
 }
 
+header div .banner {
+  position: relative;
+  width: 100%;
+}
+
 header div .redes {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -90,6 +95,8 @@ header div nav .menu {
   list-style: none;
   text-align: center;
   margin-top: 0%;
+  -webkit-transition: width 2s linear;
+  transition: width 2s linear;
 }
 
 header div nav .menu .paginas {
@@ -104,7 +111,7 @@ header div nav .menu .paginas {
 }
 
 header div nav .menu a {
-  color: grey;
+  color: white;
   font-weight: bold;
 }
 
@@ -132,7 +139,7 @@ footer h5 {
 }
 
 body {
-  background-color: blanchedalmond;
+  background-color: whitesmoke;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -357,87 +364,6 @@ main p {
   line-height: 1;
   font-size: 2rem;
   font-weight: bold;
-}
-
-header .titulo {
-  font-family: "Lobster Two", cursive;
-  text-align: center;
-  font-size: 5rem;
-  color: rgba(41, 32, 32, 0.678);
-  -webkit-animation-name: tit;
-          animation-name: tit;
-  -webkit-animation-duration: 9s;
-          animation-duration: 9s;
-  -webkit-animation-iteration-count: inherit;
-          animation-iteration-count: inherit;
-}
-
-header .titulo2 {
-  font-family: "Lobster Two", cursive;
-  text-align: center;
-  font-size: 3rem;
-  color: rgba(41, 32, 32, 0.678);
-}
-
-header .logo {
-  margin-left: 2rem;
-  width: 150px;
-  height: 150px;
-  position: absolute;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  top: 0.5rem;
-  left: 0;
-}
-
-header .redes {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  position: absolute;
-  width: 40px;
-  height: 40px;
-  top: 1rem;
-  right: 0;
-  margin-right: 4.5rem;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-}
-
-header nav .menu {
-  list-style: none;
-  text-align: center;
-  margin-top: 0%;
-}
-
-header nav .menu .paginas {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  display: inline-block;
-  text-align: center;
-  padding: 15px;
-  font-size: 25px;
-  font-style: bold;
-}
-
-header nav .menu a {
-  color: grey;
-  font-weight: bold;
-}
-
-header nav .menu a:hover {
-  -webkit-transform: scale(1.2, 1.2);
-          transform: scale(1.2, 1.2);
-  color: black;
-  -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
 }
 
 main h2 {
