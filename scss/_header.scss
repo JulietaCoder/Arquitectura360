@@ -5,13 +5,18 @@ header {
     div {
         .titulo {
             font-family: $tipografiaTitulo;
-            font-family: 'Lobster Two', cursive;
             text-align: center;
             font-size: 5rem;
             color: rgba(41, 32, 32, 0.678);
             animation-name: tit;
             animation-duration: 9s;
             animation-iteration-count: inherit;
+        }
+        .titulo2{
+            font-family: $tipografiaTitulo;
+            text-align: center;
+            font-size: 3rem;
+            color: rgba(41, 32, 32, 0.678);
         }
         @keyframes tit {
             0%{
@@ -25,17 +30,7 @@ header {
             100%{
                 opacity: 1;
             }
-        }
-        h2{
-            font-family: $tipografiaTitulo;
-            font-size: 2rem;
-            text-align: center;
-            text-decoration: underline;
-            margin-top: 4rem;
-            margin-bottom: 2rem;
-            font-weight: bold;
-            color: hsla(81, 14%, 38%, 0.701);
-        }
+        }       
         .logo{
             margin-left: 2rem;
             width: 150px;

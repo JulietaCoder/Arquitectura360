@@ -12,8 +12,7 @@ header {
 }
 
 header div .titulo {
-  font-family: "Bricolage Grotesque", sans-serif;
-  font-family: 'Lobster Two', cursive;
+  font-family: "Lobster Two", cursive;
   text-align: center;
   font-size: 5rem;
   color: rgba(41, 32, 32, 0.678);
@@ -23,6 +22,13 @@ header div .titulo {
           animation-duration: 9s;
   -webkit-animation-iteration-count: inherit;
           animation-iteration-count: inherit;
+}
+
+header div .titulo2 {
+  font-family: "Lobster Two", cursive;
+  text-align: center;
+  font-size: 3rem;
+  color: rgba(41, 32, 32, 0.678);
 }
 
 @-webkit-keyframes tit {
@@ -47,17 +53,6 @@ header div .titulo {
   100% {
     opacity: 1;
   }
-}
-
-header div h2 {
-  font-family: "Bricolage Grotesque", sans-serif;
-  font-size: 2rem;
-  text-align: center;
-  text-decoration: underline;
-  margin-top: 4rem;
-  margin-bottom: 2rem;
-  font-weight: bold;
-  color: rgba(101, 110, 83, 0.701);
 }
 
 header div .logo {
@@ -128,7 +123,7 @@ footer {
 }
 
 footer h4 {
-  font-family: "Bricolage Grotesque", sans-serif;
+  font-family: "Lobster Two", cursive;
   font-size: 1rem;
   text-align: center;
 }
@@ -143,7 +138,7 @@ body {
 }
 
 main div h2 {
-  font-family: "Bricolage Grotesque", sans-serif;
+  font-family: "Asul", sans-serif;
   font-size: 2rem;
   text-align: center;
   text-decoration: underline;
@@ -219,13 +214,8 @@ div .francisco {
   margin: auto;
 }
 
-body {
-  background-color: blanchedalmond;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
 main h2 {
-  font-family: "Bricolage Grotesque", sans-serif;
+  font-family: "Asul", sans-serif;
   font-size: 2rem;
   text-align: center;
   text-decoration: underline;
@@ -254,7 +244,7 @@ main .fotoArquitectos {
 }
 
 main h2 {
-  font-family: "Bricolage Grotesque", sans-serif;
+  font-family: "Asul", sans-serif;
   font-size: 2rem;
   text-align: center;
   text-decoration: underline;
@@ -354,7 +344,7 @@ main div div .imagenes {
 }
 
 main h2 {
-  font-family: "Bricolage Grotesque", sans-serif;
+  font-family: "Asul", sans-serif;
   font-size: 2rem;
   text-align: center;
   text-decoration: underline;
@@ -375,22 +365,17 @@ main p {
 }
 
 header .titulo {
-  font-family: "Bricolage Grotesque", sans-serif;
-  font-family: 'Lobster Two', cursive;
+  font-family: "Lobster Two", cursive;
   text-align: center;
   font-size: 5rem;
   color: rgba(41, 32, 32, 0.678);
 }
 
-header h2 {
-  font-family: "Bricolage Grotesque", sans-serif;
-  font-size: 2rem;
+header .titulo2 {
+  font-family: "Lobster Two", cursive;
   text-align: center;
-  text-decoration: underline;
-  margin-top: 4rem;
-  margin-bottom: 2rem;
-  font-weight: bold;
-  color: rgba(23, 28, 13, 0.701);
+  font-size: 3rem;
+  color: rgba(41, 32, 32, 0.678);
 }
 
 header .logo {
@@ -455,7 +440,7 @@ header nav .menu a:hover {
 }
 
 main h2 {
-  font-family: "Bricolage Grotesque", sans-serif;
+  font-family: "Asul", sans-serif;
   font-size: 2rem;
   text-align: center;
   text-decoration: underline;
