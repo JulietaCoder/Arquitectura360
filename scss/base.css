@@ -229,6 +229,13 @@ div .francisco {
   grid-area: footer;
 }
 
+.tit {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: tit;
+}
+
 .main {
   display: -ms-grid;
   display: grid;
@@ -288,6 +295,40 @@ div .francisco {
   -ms-grid-rows: 0,9fr 0,9fr 0,9fr, 0,9fr;
       grid-template-rows: 0,9fr 0,9fr 0,9fr, 0,9fr;
       grid-template-areas: "header header" "main main" "footer footer";
+}
+
+@media screen and (max-width: 576px) {
+  .contenedor {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -ms-grid-rows: 0,9fr 0,9fr 0,9fr;
+        grid-template-rows: 0,9fr 0,9fr 0,9fr;
+        grid-template-areas: "header " "main " "footer ";
+  }
+  .main {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -ms-grid-rows: 0,9fr, 0,9fr, 0.9fr;
+        grid-template-rows: 0,9fr, 0,9fr, 0.9fr;
+        grid-template-areas: "tit " "texto" "foto";
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .contenedor {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: 0,9fr 0,9fr 0,9fr, 0,9fr;
+        grid-template-rows: 0,9fr 0,9fr 0,9fr, 0,9fr;
+        grid-template-areas: "header header" "main main" "footer footer";
+  }
+  .main {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: 0,9fr, 0,9fr;
+        grid-template-rows: 0,9fr, 0,9fr;
+        grid-template-areas: "tit tit" "texto foto";
+  }
 }
 
 main h2 {

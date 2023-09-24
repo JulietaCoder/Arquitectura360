@@ -6,6 +6,9 @@
     grid-area: footer;
 }
 
+.tit{
+    grid-area: tit;
+}
 .main{
     display: grid;
     grid-area: main;
@@ -51,4 +54,39 @@
     "footer footer";
 }
 
+@media screen and (max-width: 576px){
+    .contenedor {
+        grid-template-columns: 1fr;
+        grid-template-rows: 0,9fr 0,9fr 0,9fr;
+        grid-template-areas:
+        "header "
+        "main "
+        "footer ";
+    }
+    .main{
+        grid-template-columns: 1fr;
+        grid-template-rows: 0,9fr, 0,9fr, 0.9fr;
+        grid-template-areas:
+        "tit "
+        "texto"
+        "foto";
+        }
+}
 
+@media screen and (min-width: 1200px){
+    .contenedor {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 0,9fr 0,9fr 0,9fr, 0,9fr;
+        grid-template-areas:
+        "header header"
+        "main main"
+        "footer footer";
+    }
+    .main{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 0,9fr, 0,9fr;
+        grid-template-areas:
+        "tit tit"
+        "texto foto";
+        }
+}
