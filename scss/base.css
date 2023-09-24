@@ -222,18 +222,6 @@ div .francisco {
   grid-area: header;
 }
 
-.texto {
-  -ms-grid-row: 2;
-  -ms-grid-column: 1;
-  grid-area: texto;
-}
-
-.fotoArquitectos {
-  -ms-grid-row: 2;
-  -ms-grid-column: 2;
-  grid-area: foto;
-}
-
 .footer {
   -ms-grid-row: 3;
   -ms-grid-column: 1;
@@ -241,7 +229,19 @@ div .francisco {
   grid-area: footer;
 }
 
-main h2 {
+.main {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: main;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 0,9fr, 0,9fr;
+      grid-template-areas: "tit tit" "texto foto";
+}
+
+.main h2 {
   font-family: "Asul", sans-serif;
   font-size: 2rem;
   text-align: center;
@@ -252,7 +252,13 @@ main h2 {
   color: rgba(23, 28, 13, 0.701);
 }
 
-main .texto .parrafoq {
+.main .texto {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: texto;
+}
+
+.main .texto .parrafoq {
   font-family: "Barlow Condensed", sans-serif;
   padding: 2rem;
   margin-left: 5rem;
@@ -261,11 +267,11 @@ main .texto .parrafoq {
   font-weight: bold;
 }
 
-main .fotoArquitectos {
+.main .fotoArquitectos {
   -ms-grid-row: 2;
   -ms-grid-column: 2;
   grid-area: foto;
-  width: 50%;
+  width: 70%;
   margin-bottom: 5%;
   margin-top: 3%;
   border-radius: 1rem;
@@ -277,11 +283,11 @@ main .fotoArquitectos {
   width: 100%;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 2fr 2fr;
-      grid-template-columns: 2fr 2fr;
-  -ms-grid-rows: 0,9fr 0,9fr 0,9fr;
-      grid-template-rows: 0,9fr 0,9fr 0,9fr;
-      grid-template-areas: "header header" "texto foto" "footer footer";
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: 0,9fr 0,9fr 0,9fr, 0,9fr;
+      grid-template-rows: 0,9fr 0,9fr 0,9fr, 0,9fr;
+      grid-template-areas: "header header" "main main" "footer footer";
 }
 
 main h2 {

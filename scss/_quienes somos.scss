@@ -2,24 +2,24 @@
     grid-area: header;
 }
 
-.texto {
-    grid-area: texto;
-}
-
-.fotoArquitectos{
-    grid-area: foto;
-}
-
 .footer {
     grid-area: footer;
 }
 
+.main{
+    display: grid;
+    grid-area: main;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0,9fr, 0,9fr;
+    grid-template-areas:
+    "tit tit"
+    "texto foto";
 
-main{
     h2{
         @include estiloh2
     }
     .texto{
+        grid-area: texto;
         .parrafoq{
             font-family: $texto;
             padding: 2rem;
@@ -31,7 +31,7 @@ main{
     }
     .fotoArquitectos{
         grid-area: foto;
-        width: 50%;
+        width: 70%;
         margin-bottom: 5%;
         margin-top: 3%;
         border-radius: 1rem;
@@ -43,11 +43,12 @@ main{
 .contenedor{
     width: 100%;
     display: grid;
-    grid-template-columns: 2fr 2fr;
-    grid-template-rows: 0,9fr 0,9fr 0,9fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0,9fr 0,9fr 0,9fr, 0,9fr;
     grid-template-areas:
     "header header"
-    "texto foto"
+    "main main"
     "footer footer";
 }
+
 
