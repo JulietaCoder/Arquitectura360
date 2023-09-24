@@ -232,7 +232,7 @@ div .francisco {
 .tit {
   -ms-grid-row: 1;
   -ms-grid-column: 1;
-  -ms-grid-column-span: 3;
+  -ms-grid-column-span: 2;
   grid-area: tit;
 }
 
@@ -349,21 +349,8 @@ div .francisco {
 .tit {
   -ms-grid-row: 1;
   -ms-grid-column: 1;
-  -ms-grid-column-span: 3;
+  -ms-grid-column-span: 2;
   grid-area: tit;
-}
-
-main {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-row: 2;
-  -ms-grid-row-span: 2;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 3;
-  grid-area: main;
-      grid-template-columns: 1fr 1fr 1fr;
-      grid-template-rows: 0,9fr, 0,9fr 0,9fr;
-      grid-template-areas: "tit tit tit" "dario martina rebeca" "imagenes imagenes imagenes";
 }
 
 main h2 {
@@ -383,8 +370,6 @@ main .dario {
   margin-right: 3rem;
   margin-left: 3rem;
   margin-bottom: 1rem;
-  -ms-grid-row: 2;
-  -ms-grid-column: 1;
   grid-area: dario;
 }
 
@@ -407,8 +392,6 @@ main .martina {
   margin-right: 3rem;
   margin-left: 3rem;
   margin-bottom: 1rem;
-  -ms-grid-row: 2;
-  -ms-grid-column: 2;
   grid-area: martina;
 }
 
@@ -430,8 +413,6 @@ main .rebeca {
   margin-top: 6rem;
   margin-bottom: 1rem;
   margin-left: 3rem;
-  -ms-grid-row: 2;
-  -ms-grid-column: 3;
   grid-area: rebeca;
 }
 
@@ -448,7 +429,7 @@ main .rebeca p {
   font-weight: bold;
 }
 
-.contenedor {
+.contenedor2 {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr 1fr;
@@ -458,12 +439,12 @@ main .rebeca p {
       grid-template-areas: "header header header" "main main main" "main main main" "footer footer footer";
 }
 
-div div .imagenes {
-  -ms-grid-row: 3;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 3;
+div .imagenes {
   grid-area: imagenes;
-  margin-top: 5rem;
+  margin-top: 50%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 main h2 {

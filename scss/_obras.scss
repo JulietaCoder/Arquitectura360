@@ -11,14 +11,6 @@
 }
 
 main{
-    display: grid;
-    grid-area: main;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 0,9fr, 0,9fr 0,9fr;
-    grid-template-areas:
-    "tit tit tit"
-    "dario martina rebeca"
-    "imagenes imagenes imagenes";
 
     h2{
         @include estiloh2
@@ -63,11 +55,11 @@ main{
             p{
                 @include estiloparrafo
             }
-        }
+        }   
         
-    }
+}
 
-    .contenedor{
+    .contenedor2{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 0,9fr 0,9fr 0,9fr 0,9fr;
@@ -77,13 +69,14 @@ main{
         "main main main"
         "footer footer footer";
         }
-    div{
+    
         div{
             .imagenes{
                 grid-area: imagenes;
-                margin-top: 5rem;
-            }
+                margin-top: 50%;
+                justify-content: center;
+        
         }
+    
     }
-
 
