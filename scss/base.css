@@ -215,6 +215,32 @@ div .francisco {
   margin: auto;
 }
 
+.header {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: header;
+}
+
+.texto {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: texto;
+}
+
+.fotoArquitectos {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: foto;
+}
+
+.footer {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: footer;
+}
+
 main h2 {
   font-family: "Asul", sans-serif;
   font-size: 2rem;
@@ -236,13 +262,26 @@ main .texto .parrafoq {
 }
 
 main .fotoArquitectos {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
   grid-area: foto;
-  width: 60%;
+  width: 50%;
   margin-bottom: 5%;
   margin-top: 3%;
   border-radius: 1rem;
   margin-left: 2rem;
   text-align: center;
+}
+
+.contenedor {
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2fr 2fr;
+      grid-template-columns: 2fr 2fr;
+  -ms-grid-rows: 0,9fr 0,9fr 0,9fr;
+      grid-template-rows: 0,9fr 0,9fr 0,9fr;
+      grid-template-areas: "header header" "texto foto" "footer footer";
 }
 
 main h2 {
