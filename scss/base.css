@@ -218,21 +218,21 @@ div .francisco {
 .header {
   -ms-grid-row: 1;
   -ms-grid-column: 1;
-  -ms-grid-column-span: 2;
+  -ms-grid-column-span: 3;
   grid-area: header;
 }
 
 .footer {
-  -ms-grid-row: 3;
+  -ms-grid-row: 4;
   -ms-grid-column: 1;
-  -ms-grid-column-span: 2;
+  -ms-grid-column-span: 3;
   grid-area: footer;
 }
 
 .tit {
   -ms-grid-row: 1;
   -ms-grid-column: 1;
-  -ms-grid-column-span: 2;
+  -ms-grid-column-span: 3;
   grid-area: tit;
 }
 
@@ -240,8 +240,9 @@ div .francisco {
   display: -ms-grid;
   display: grid;
   -ms-grid-row: 2;
+  -ms-grid-row-span: 2;
   -ms-grid-column: 1;
-  -ms-grid-column-span: 2;
+  -ms-grid-column-span: 3;
   grid-area: main;
       grid-template-columns: 1fr 1fr;
       grid-template-rows: 0,9fr, 0,9fr;
@@ -331,6 +332,40 @@ div .francisco {
   }
 }
 
+.header {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-area: header;
+}
+
+.footer {
+  -ms-grid-row: 4;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-area: footer;
+}
+
+.tit {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-area: tit;
+}
+
+main {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-area: main;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 0,9fr, 0,9fr 0,9fr;
+      grid-template-areas: "tit tit tit" "dario martina rebeca" "imagenes imagenes imagenes";
+}
+
 main h2 {
   font-family: "Asul", sans-serif;
   font-size: 2rem;
@@ -342,32 +377,22 @@ main h2 {
   color: rgba(23, 28, 13, 0.701);
 }
 
-main .padre {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr 1fr 1fr;
-      grid-template-columns: 1fr 1fr 1fr;
-  -ms-grid-rows: 0,9fr 0,9fr;
-      grid-template-rows: 0,9fr 0,9fr;
-      grid-template-areas: "dario martina rebeca" "imagenes imagenes imagenes";
-}
-
-main .padre .dario {
-  width: 50px;
+main .dario {
+  width: 50%;
   margin-top: 6rem;
   margin-right: 3rem;
-  margin-left: 1rem;
+  margin-left: 3rem;
   margin-bottom: 1rem;
-  -ms-grid-row: 1;
+  -ms-grid-row: 2;
   -ms-grid-column: 1;
   grid-area: dario;
 }
 
-main .padre .dario h5 {
+main .dario h5 {
   text-align: center;
 }
 
-main .padre .dario p {
+main .dario p {
   font-family: "Barlow Condensed", sans-serif;
   padding: 2rem;
   margin: 1.5rem;
@@ -376,21 +401,22 @@ main .padre .dario p {
   font-weight: bold;
 }
 
-main .padre .martina {
-  width: 50px;
+main .martina {
+  width: 50%;
   margin-top: 6rem;
   margin-right: 3rem;
+  margin-left: 3rem;
   margin-bottom: 1rem;
-  -ms-grid-row: 1;
+  -ms-grid-row: 2;
   -ms-grid-column: 2;
   grid-area: martina;
 }
 
-main .padre .martina h5 {
+main .martina h5 {
   text-align: center;
 }
 
-main .padre .martina p {
+main .martina p {
   font-family: "Barlow Condensed", sans-serif;
   padding: 2rem;
   margin: 1.5rem;
@@ -399,20 +425,21 @@ main .padre .martina p {
   font-weight: bold;
 }
 
-main .padre .rebeca {
-  width: 50px;
+main .rebeca {
+  width: 50%;
   margin-top: 6rem;
   margin-bottom: 1rem;
-  -ms-grid-row: 1;
+  margin-left: 3rem;
+  -ms-grid-row: 2;
   -ms-grid-column: 3;
   grid-area: rebeca;
 }
 
-main .padre .rebeca h5 {
+main .rebeca h5 {
   text-align: center;
 }
 
-main .padre .rebeca p {
+main .rebeca p {
   font-family: "Barlow Condensed", sans-serif;
   padding: 2rem;
   margin: 1.5rem;
@@ -421,11 +448,22 @@ main .padre .rebeca p {
   font-weight: bold;
 }
 
-main div div .imagenes {
-  -ms-grid-row: 2;
+.contenedor {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: 0,9fr 0,9fr 0,9fr 0,9fr;
+      grid-template-rows: 0,9fr 0,9fr 0,9fr 0,9fr;
+      grid-template-areas: "header header header" "main main main" "main main main" "footer footer footer";
+}
+
+div div .imagenes {
+  -ms-grid-row: 3;
   -ms-grid-column: 1;
   -ms-grid-column-span: 3;
   grid-area: imagenes;
+  margin-top: 5rem;
 }
 
 main h2 {

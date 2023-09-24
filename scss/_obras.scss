@@ -1,19 +1,33 @@
+.header {
+    grid-area: header;
+}
+
+.footer {
+    grid-area: footer;
+}
+
+.tit{
+    grid-area: tit;
+}
+
 main{
+    display: grid;
+    grid-area: main;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0,9fr, 0,9fr 0,9fr;
+    grid-template-areas:
+    "tit tit tit"
+    "dario martina rebeca"
+    "imagenes imagenes imagenes";
+
     h2{
         @include estiloh2
     }
-    .padre{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 0,9fr 0,9fr;
-        grid-template-areas: 
-        "dario martina rebeca"
-        "imagenes imagenes imagenes";
         .dario{
-            width: 50px;
+            width: 50%;
             margin-top: 6rem;
             margin-right: 3rem;
-            margin-left: 1rem;
+            margin-left: 3rem;
             margin-bottom: 1rem;
             grid-area: dario;
             h5{
@@ -24,9 +38,10 @@ main{
             }
         }
         .martina{
-            width: 50px;
+            width: 50%;
             margin-top: 6rem;
             margin-right: 3rem;
+            margin-left: 3rem;
             margin-bottom: 1rem;
             grid-area: martina;
             h5{
@@ -37,9 +52,10 @@ main{
             }
         }
         .rebeca{
-            width: 50px;
+            width: 50%;
             margin-top: 6rem;
             margin-bottom: 1rem;
+            margin-left: 3rem;
             grid-area: rebeca;
             h5{
                 text-align: center;
@@ -48,14 +64,26 @@ main{
                 @include estiloparrafo
             }
         }
+        
     }
 
+    .contenedor{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 0,9fr 0,9fr 0,9fr 0,9fr;
+        grid-template-areas: 
+        "header header header"
+        "main main main"
+        "main main main"
+        "footer footer footer";
+        }
     div{
         div{
             .imagenes{
                 grid-area: imagenes;
+                margin-top: 5rem;
             }
         }
     }
-}
+
 
