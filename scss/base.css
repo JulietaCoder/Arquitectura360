@@ -67,11 +67,6 @@ header div .logo {
   left: 0;
 }
 
-header div .banner {
-  position: relative;
-  width: 100%;
-}
-
 header div .redes {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -91,7 +86,7 @@ header div .redes {
           justify-content: space-evenly;
 }
 
-header div nav .menu {
+header nav .menu {
   list-style: none;
   text-align: center;
   margin-top: 0%;
@@ -99,7 +94,7 @@ header div nav .menu {
   transition: width 2s linear;
 }
 
-header div nav .menu .paginas {
+header nav .menu .paginas {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -110,12 +105,12 @@ header div nav .menu .paginas {
   font-style: bold;
 }
 
-header div nav .menu a {
+header nav .menu a {
   color: white;
   font-weight: bold;
 }
 
-header div nav .menu a:hover {
+header nav .menu a:hover {
   -webkit-transform: scale(1.2, 1.2);
           transform: scale(1.2, 1.2);
   color: black;
@@ -231,7 +226,7 @@ main h2 {
   color: rgba(23, 28, 13, 0.701);
 }
 
-main div .parrafoq {
+main .texto .parrafoq {
   font-family: "Barlow Condensed", sans-serif;
   padding: 2rem;
   margin-left: 5rem;
@@ -241,7 +236,8 @@ main div .parrafoq {
 }
 
 main .fotoArquitectos {
-  width: 500px;
+  grid-area: foto;
+  width: 60%;
   margin-bottom: 5%;
   margin-top: 3%;
   border-radius: 1rem;
