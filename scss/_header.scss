@@ -42,7 +42,7 @@ header {
             left: 0;
         }
         
-        .redes{
+        .redesfb{
             display: flex;
             flex-direction: row;
             position: absolute;
@@ -50,10 +50,35 @@ header {
             height: 40px;
             top: 1rem;
             right: 0;
-            margin-right: 4.5rem;
+            margin-right: 5rem;
             justify-content: space-evenly;
-
             }
+
+        .redesig{
+            display: flex;
+            flex-direction: row;
+            position: absolute;
+            width: 40px;
+            height: 40px;
+            top: 1rem;
+            right: 0;
+            margin-right: 8rem;
+            justify-content: space-evenly;
+        }
+
+        .redeswp{
+            display: flex;
+            flex-direction: row;
+            position: absolute;
+            width: 40px;
+            height: 40px;
+            top: 1rem;
+            right: 0;
+            margin-right: 2rem;
+            justify-content: space-evenly;
+        }
+
+
         }
         nav{
             .menu{

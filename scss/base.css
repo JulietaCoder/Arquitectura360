@@ -67,7 +67,7 @@ header div .logo {
   left: 0;
 }
 
-header div .redes {
+header div .redesfb {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -80,7 +80,45 @@ header div .redes {
   height: 40px;
   top: 1rem;
   right: 0;
-  margin-right: 4.5rem;
+  margin-right: 5rem;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+header div .redesig {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 1rem;
+  right: 0;
+  margin-right: 8rem;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+header div .redeswp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 1rem;
+  right: 0;
+  margin-right: 2rem;
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
