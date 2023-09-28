@@ -81,35 +81,19 @@ header {
 
         }
         nav{
-            .menu{
-                list-style: none;
-                text-align: center;
-                margin-top: 0%;
-                transition: width 2s linear;
-
-                .paginas{
-                    display: flex;
-                    display: inline-block;
-                    text-align: center;
-                    padding: 15px;
-                    font-size: 25px;
-                    font-style: bold;  
-                }
-
                 a{
                     color: white;
                     font-weight: bold;
                 }
                 a:hover{
                     transform: scale(1.2, 1.2);
-                    color: black;
+                    color: white;
                     transform: translate(10px, 20px);
                     
                 }
                 
             }   
-        }
-
+    
     }
 
 
